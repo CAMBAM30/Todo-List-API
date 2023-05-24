@@ -26,3 +26,7 @@ body {
     font-size: 21px;
     background-color: black;
 }
+input.mark-complete {
+    height: 50px;
+    width: 150px;
+}

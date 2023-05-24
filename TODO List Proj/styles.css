@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 h2 {
     text-align: center;
     font-weight: bold;
@@ -5,6 +9,7 @@ h2 {
     text-decoration: underline;
     color: blue;
 }
+
 .delete { 
     margin-right: 5px;
 }
@@ -16,9 +21,15 @@ button.delete {
     color: yellow;
     background-color: blue;
     padding: 10px;
-    width: 350px;
+    width: 150px;
     height: 50px;
     margin-bottom: 5px;
+}
+form#create-task {
+    margin-top: 25px;
+}
+.row {
+    display: inline-block;
 }
 body {
     color: indianred;
@@ -27,6 +38,6 @@ body {
     background-color: black;
 }
 input.mark-complete {
-    height: 50px;
     width: 150px;
+    height: 30px;
 }

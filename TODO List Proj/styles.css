@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    color: blue;
+}
+.delete { 
+    margin-right: 5px;
+}
+button {
+    background-color: green;
+    margin-left: 10px;
+}
+button.delete {
+    color: yellow;
+    background-color: blue;
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+body {
+    color: indianred;
+    font-family: fantasy;
+    font-size: 21px;
+    background-color: black;
+}
